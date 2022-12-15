@@ -18,6 +18,7 @@ export default function Projects() {
               link={proj.link}
               imgUrl={proj.imgUrl}
               number={`${idx + 1}`}
+              desc={proj.desc}
             />
           ))}
         </div>
@@ -26,7 +27,7 @@ export default function Projects() {
   );
 }
 
-const ProjectCard = ({ title, link, imgUrl, number }) => {
+const ProjectCard = ({ title, link, imgUrl, number, desc }) => {
   return (
     <a href={link} className="w-full block shadow-2xl">
       <div className="relative overflow-hidden">
@@ -37,11 +38,11 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
             className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
           />
         </div>
-        <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+        <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-slate-700/80 rounded-md px-2">
           {title}
         </h1>
-        <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-          {number.length === 1 ? "0" + number : number}
+        <h1 className="absolute top-20 left-10 text-gray-50 font-bold text-xl bg-slate-700/80 ">
+          {desc}
         </h1>
       </div>
     </a>

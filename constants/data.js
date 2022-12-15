@@ -1,51 +1,32 @@
 const userData = {
-  githubUsername: "manuarora700",
-  name: "Manu Arora",
+  githubUsername: "jjmountain",
+  name: "James Devereux",
   designation: "Full-Stack Developer",
-  avatarUrl: "/avatar.png",
-  email: "manuarorawork@gmail.com",
-  phone: "+91 9587738861",
-  address: "Jaipur, Rajasthan, India.",
+  avatarUrl: "/avatar5.png",
+  email: "devereuxjj@gmail.com",
+  phone: "+81 08088066383",
+  address: "Shibuya, Tokyo, Japan.",
   projects: [
     {
-      title: "Tailwind Master Kit",
-      link: "https://tailwindmasterkit.com",
-      imgUrl: "/tmk.jpg",
+      title: "DreamDrive 3D Configurator",
+      link: "https://www.dreamdrive.life/jp/kuma-configurator",
+      imgUrl: "/kuma_config.png",
+      desc: "A 3D configurator for DreamDrive's camper vans",
     },
     {
-      title: "PlaceholderTech",
-      link: "https://placeholdertech.in",
-      imgUrl: "/placeholdertech.png",
+      title: "Britle",
+      link: "https://britle.netlify.app/",
+      imgUrl: "/britle.png",
     },
     {
-      title: "Portfolio",
-      link: "https://manuarora.in",
-      imgUrl: "/portfolio.png",
+      title: "Octacle",
+      link: "https://www.octacle.app/",
+      imgUrl: "/octacle.png",
     },
     {
-      title: "CovidRescue",
+      title: "O",
       link: "https://covidrescue.co.in",
       imgUrl: "/covidrescue.png",
-    },
-    {
-      title: "Algochurn",
-      link: "https://algochurn.com",
-      imgUrl: "/algochurn.png",
-    },
-    {
-      title: "Playground",
-      link: "https://play.placeholdertech.in",
-      imgUrl: "/playground.png",
-    },
-    {
-      title: "Feedmeback",
-      link: "https://feedmeback.vercel.app",
-      imgUrl: "/feedmeback.png",
-    },
-    {
-      title: "Devmedium",
-      link: "https://devmedium.vercel.app",
-      imgUrl: "/devmedium.png",
     },
   ],
   about: {
@@ -61,11 +42,11 @@ const userData = {
   },
   experience: [
     {
-      title: "Software Developer",
-      company: "mroads",
+      title: "Full-stack Developer",
+      company: "DreamDrive Campervans",
       year: "2021",
-      companyLink: "https://mroads.com",
-      desc: "Contributed to our flagship product - Panna - which is an AI powered candidate interviewing product.",
+      companyLink: "https://www.dreamdrive.life",
+      desc: "Devised and coordinated solutions to the fulfil the IT needs of this fast-growing Tokyo startup \n• Acted as lead architect, project manager and developer for in-house software applications including anonline service for taking deposit payments and a 3D configurator allowing customers to build their own camper van. \n• Received universal praise from stakeholders for the configurator app and have increased company sales as a direct result of customer interaction with it. \n• Improved reliability and speed of the company's main website.",
     },
     {
       title: "Founder and Developer",
@@ -104,13 +85,10 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
+    "https://drive.google.com/file/d/1HFOkrwy3DxfBgBu0dsCvd3DZnISGfguC/view?usp=sharing",
   socialLinks: {
-    instagram: "https://instagram.com/maninthere",
-    twitter: "https://twitter.com/mannupaaji",
-    linkedin: "https://linkedin.com/in/manuarora28",
-    github: "https://github.com/manuarora700",
-    facebook: "https://facebook.com/",
+    linkedin: "https://www.linkedin.com/in/devereuxjj/",
+    github: "https://github.com/jjmountain",
   },
 };
 
